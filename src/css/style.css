@@ -1,0 +1,221 @@
+html {
+  font-family: "TT Travels", sans-serif; }
+
+.promo {
+  width: 1900px;
+  height: 1117px;
+  background-color: #131118;
+  position: relative; }
+  .promo .promo__city {
+    position: absolute; }
+  .promo .promo__ellipse {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 800px;
+    top: 40px;
+    filter: blur(50px); }
+  .promo .promo__ellipse1 {
+    left: 200px;
+    top: 400px; }
+  .promo .promo__neon {
+    position: absolute;
+    width: 1222px;
+    height: 684px;
+    bottom: 0px;
+    left: 550px; }
+  .promo .header {
+    width: 1920px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .promo .header .header__link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      margin: 125px 30px 0 30px;
+      text-decoration: none; }
+    .promo .header .header__logo {
+      margin: 0 121px 0 121px;
+      width: 239px;
+      height: 61px;
+      margin-top: 97px; }
+  .promo .info {
+    height: 420px;
+    position: relative; }
+    .promo .info .info__text-blur {
+      width: 1019px;
+      height: 181px;
+      margin-left: 505px;
+      margin-top: -35px;
+      position: absolute; }
+    .promo .info .info__title {
+      color: #fff;
+      font-weight: 800;
+      font-size: 128px;
+      margin: 30px 0 0 530px; }
+    .promo .info .info__title-sale {
+      color: #fff;
+      font-weight: 600;
+      font-size: 128px;
+      margin-left: 165px;
+      margin-top: -50px; }
+    .promo .info .info__cat {
+      width: 295px;
+      height: 356px;
+      margin-left: 1410px;
+      margin-top: -360px;
+      position: absolute;
+      z-index: 5; }
+    .promo .info .info__catblur {
+      width: 295px;
+      height: 356px;
+      margin-left: 1410px;
+      margin-top: -360px;
+      position: absolute;
+      filter: blur(100px);
+      z-index: 2; }
+    .promo .info .info__cat-rect {
+      margin-left: 1410px;
+      margin-top: -360px;
+      position: absolute;
+      z-index: 1; }
+    .promo .info .button {
+      width: 201px;
+      height: 72px;
+      border-radius: 36px;
+      font-size: 20px;
+      font-weight: 500;
+      position: absolute;
+      background-color: #efda1c;
+      color: #000;
+      margin-left: 165px;
+      margin-top: -115px;
+      cursor: pointer; }
+    .promo .info .button-nft {
+      border: none;
+      transition: 0.5s all; }
+      .promo .info .button-nft:hover {
+        background-color: #fff;
+        margin-top: -130px; }
+      .promo .info .button-nft .info__cat {
+        width: 320px;
+        height: 400px; }
+    .promo .info .button-gallery {
+      background-color: #131118;
+      border-color: #1fbf9b;
+      color: #1fbf9b;
+      margin-left: 389px; }
+    .promo .info .button-sale {
+      font-weight: 800;
+      margin-top: -230px;
+      margin-left: 1180px;
+      border: none;
+      transform: rotate(-14deg); }
+    .promo .info .info__subtitle {
+      width: 679px;
+      font-weight: 500;
+      color: #1fbf9b;
+      margin-left: 630px;
+      margin-top: -103px; }
+  .promo .content {
+    position: relative; }
+    .promo .content .nft {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .promo .content .nft .nft__blure {
+        filter: blur(100px);
+        width: 367px;
+        height: 292px;
+        position: absolute;
+        left: 165px;
+        top: 73px;
+        z-index: 3; }
+      .promo .content .nft .nft__monkeyblure {
+        left: 552px; }
+      .promo .content .nft .nft__heroblure {
+        left: 939px; }
+      .promo .content .nft .nft__img {
+        width: 367px;
+        height: 292px;
+        position: absolute;
+        left: 165px;
+        top: 73px;
+        z-index: 5; }
+      .promo .content .nft .nft__monkey {
+        left: 552px; }
+      .promo .content .nft .nft__nero {
+        left: 938px;
+        top: 72px; }
+      .promo .content .nft .nft__rectangle {
+        width: 367px;
+        height: 214px;
+        position: absolute;
+        left: 165px;
+        top: 150px;
+        z-index: 1; }
+      .promo .content .nft .nft__monkeyrectangle {
+        left: 552px; }
+      .promo .content .nft .nft__herorectangle {
+        left: 939px; }
+      .promo .content .nft .nft__plus {
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 35px;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 auto;
+        border-radius: 100%;
+        cursor: pointer;
+        margin-left: 350px;
+        top: 335px; }
+        .promo .content .nft .nft__plus:before {
+          z-index: 11;
+          content: "";
+          position: absolute;
+          transform: translateX(-50%);
+          display: block;
+          width: 24px;
+          height: 2px;
+          background-color: #fff;
+          transition: 0.5s all;
+          bottom: 30px;
+          left: 30px; }
+        .promo .content .nft .nft__plus:after {
+          z-index: 11;
+          content: "";
+          position: absolute;
+          transform: translateX(-50%);
+          display: block;
+          width: 2px;
+          height: 24px;
+          background-color: #fff;
+          transition: 0.5s all;
+          bottom: 19px;
+          left: 30px; }
+        .promo .content .nft .nft__plus:hover:before, .promo .content .nft .nft__plus:hover:after {
+          background-color: #1fbf9b; }
+      .promo .content .nft .nft__plus1 {
+        margin-left: 735px; }
+      .promo .content .nft .nft__plus2 {
+        margin-left: 1115px; }
+      .promo .content .nft .nft__spantchbob {
+        width: 430px;
+        height: 424px;
+        position: absolute;
+        margin-bottom: 0;
+        bottom: -506px;
+        left: 1470px;
+        z-index: 10; }
+      .promo .content .nft .nft__spantchbobblur {
+        filter: blur(100px);
+        z-index: 2; }
+
+/*# sourceMappingURL=style.css.map */

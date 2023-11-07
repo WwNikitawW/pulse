@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'TT Travels';
+    src: url('../fonts/TTTravels-Medium.eot');
+    src: url('../fonts/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTTravels-Medium.woff') format('woff'),
+    url('../fonts/TTTravels-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'TT Travels';
+    src: url('../fonts/TTTravels-ExtraBold.eot');
+    src: url('../fonts/TTTravels-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTTravels-ExtraBold.woff') format('woff'),
+    url('../fonts/TTTravels-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'TT Travels';
+    src: url('../fonts/TTTravels-DemiBoldItalic.eot');
+    src: url('../fonts/TTTravels-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTTravels-DemiBoldItalic.woff') format('woff'),
+    url('../fonts/TTTravels-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    }
